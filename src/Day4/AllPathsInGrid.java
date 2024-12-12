@@ -15,7 +15,6 @@ public class AllPathsInGrid {
             result.add(currentPath);
             return;
         }
-
         if (i < m - 1) {
             findPathsHelper(result, currentPath + "D", i + 1, j, m, n);
         }
